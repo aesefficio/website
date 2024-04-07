@@ -1,38 +1,9 @@
 @tailwind base;
-
-* {
-    scrollbar-width: 15px;
-    scrollbar-color:  #261e29 #12001a;
-}
-
-*::-webkit-scrollbar {
-    width: 5px;
-}
-
-*::-webkit-scrollbar-track {
-    background: #12001a;
-    border-radius: 5px;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: #261e29;
-    border-radius: 10px;
-    border: 1px solid #b899c8;
-}
 @tailwind components;
 @tailwind utilities;
 
 html, body {
     height: 100%;
-}
-
-.bg-glassomorphism {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.5px);
-    -webkit-backdrop-filter: blur(9.5px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .linkicon,
@@ -75,7 +46,7 @@ html, body {
 
     padding: 2px 5px 2px 5px;
     border-radius: 4px;
-    background:#09000d;
+    background:#032331;
     opacity: 0.95;
     color: #fff;
 
@@ -101,7 +72,7 @@ html, body {
 
     padding: 2px 5px 2px 5px;
     border-radius: 4px;
-    background:#09000d;
+    background:#032331;
     opacity: 0.95;
     color: #fff;
 
@@ -122,7 +93,7 @@ html, body {
 
     padding: 2px 5px 2px 5px;
     border-radius: 4px;
-    background:#09000d;
+    background:#032331;
     opacity: 0.95;
     color: #fff;
 
@@ -136,7 +107,7 @@ html, body {
 
 
 ::selection {
-    background: #2d1c36;
+    background: #032331;
 }
 
 @layer base {
