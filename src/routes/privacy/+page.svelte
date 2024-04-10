@@ -27,7 +27,7 @@
                 When using our services, you retain all rights to your personal information.
             </p>
             <p class="pb-3">
-                This page was last updated <span class="underline decoration-dotted">7 April 2024</span>. 
+                This page was last updated <span class="underline decoration-dotted">7 April 2024</span>. We reserve the right to update or change this Privacy Policy at any time. Any changes will be posted on this page with an updated effective date. We encourage you to review this Privacy Policy periodically for any changes.
             </p>
             <p class="pb-3">
                 For any concerns or questions, please contact us on <a href="https://discord.com/invite/kw7hx73wVA" class="underline decoration-dotted">Discord</a> or via Email at <span class="underline decoration-dotted">aaw «аt» aes «dot» rip</span>
