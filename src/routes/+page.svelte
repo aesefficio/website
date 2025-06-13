@@ -128,86 +128,86 @@
     <section id="projects" class="min-h-screen w-full bg-gradient-to-b from-transparent to-black/20 py-16 px-4">
         <div class="max-w-4xl mx-auto">            
             <div class="space-y-8">
-                <!-- Mod Card 1 -->
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:bg-white/15 transition-colors duration-300">
-                    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
-                            <img src="https://media.forgecdn.net/avatars/1068/436/638602929407669140.png" alt="Create Interiors Logo" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex-1 text-center md:text-left">
-                            <h3 class="text-2xl font-bold text-fuchsia-50 mb-2">Create Interiors</h3>
-                            <p class="text-gray-200 mb-4">A complement to the Create mod that adds new furniture. Enhance your builds with decorative and functional interior elements perfect for any Create-powered contraption.</p>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-4">
-                                <span class="px-3 py-1 bg-purple-600/50 text-white text-sm rounded-full">Fabric</span>
-                                <span class="px-3 py-1 bg-orange-600/50 text-white text-sm rounded-full">Forge</span>
-                                <span class="px-3 py-1 bg-green-600/50 text-white text-sm rounded-full">1.18.2-1.21.1</span>
-                                <span class="px-3 py-1 bg-blue-600/50 text-white text-sm rounded-full">8.93M downloads</span>
+                                <!-- Mod Card 1 -->
+                                <div class="bg-black/10 border border-blue-800 rounded-lg p-6 hover:bg-black/15 transition-colors duration-300">
+                                    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+                                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                            <img src="https://media.forgecdn.net/avatars/1068/436/638602929407669140.png" alt="Create Interiors Logo" class="w-full h-full object-cover">
+                                        </div>
+                                        <div class="flex-1 text-center md:text-left">
+                                            <h3 class="text-3xl font-bold font-mastery text-fuchsia-50 mb-2">Create Interiors</h3>
+                                            <p class="text-gray-200 mb-4">A complement to the Create mod that adds new furniture. </p>
+                                            <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Fabric</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Forge</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">1.18.2-1.21.1</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">8.93M downloads</span>
+                                            </div>
+                                            <div class="flex flex-wrap justify-center md:justify-start gap-2">
+                                                <a href="https://modrinth.com/mod/interiors" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
+                                                    Download on Modrinth
+                                                </a>
+                                                <a href="https://curseforge.com/minecraft/mc-mods/interiors" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
+                                                    Download on CurseForge
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <!-- Mod Card 2 -->
+                                <div class="bg-black/10 border border-blue-800 rounded-lg p-6 hover:bg-black/15 transition-colors duration-300">
+                                    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+                                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                            <img src="https://media.forgecdn.net/avatars/1068/437/638602929669872740.png" alt="Bells & Whistles Logo" class="w-full h-full object-cover">
+                                        </div>
+                                        <div class="flex-1 text-center md:text-left">
+                                            <h3 class="text-3xl font-bold font-mastery text-fuchsia-50 mb-2">Bells & Whistles</h3>
+                                            <p class="text-gray-200 mb-4">Focused on the player experience, adding decorative and utility blocks. Perfect for builders who want to add those extra details that make all the difference.</p>
+                                            <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Fabric</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Forge</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">1.18.2-1.21.1</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">9.06M downloads</span>
+                                            </div>
+                                            <div class="flex flex-wrap justify-center md:justify-start gap-2">
+                                                <a href="https://modrinth.com/mod/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
+                                                    Download on Modrinth
+                                                </a>
+                                                <a href="https://curseforge.com/minecraft/mc-mods/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
+                                                    Download on CurseForge
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <!-- Mod Card 3 -->
+                                <div class="bg-black/10 border border-blue-800 rounded-lg p-6 hover:bg-black/15 transition-colors duration-300">
+                                    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+                                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                            <img src="https://media.forgecdn.net/avatars/1068/434/638602928990115218.png" alt="Dynamic Village Logo" class="w-full h-full object-cover">
+                                        </div>
+                                        <div class="flex-1 text-center md:text-left">
+                                            <h3 class="text-3xl font-bold font-varela text-fuchsia-50 mb-2">Dynamic Village</h3>
+                                            <p class="text-gray-200 mb-4">Adds a whole host of village professions & structures. Breathe new life into villages with diverse NPCs and buildings that make every village unique and engaging.</p>
+                                            <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Forge</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">1.19.2-1.20.1</span>
+                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">3.73M downloads</span>
+                                            </div>
+                                            <div class="flex flex-wrap justify-center md:justify-start gap-2">
+                                                <a href="https://modrinth.com/mod/dynamic-village" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
+                                                    Download on Modrinth
+                                                </a>
+                                                <a href="https://curseforge.com/minecraft/mc-mods/dynamic-village" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
+                                                    Download on CurseForge
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-2">
-                                <a href="https://modrinth.com/mod/interiors" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-fuchsia-600 hover:bg-fuchsia-700 text-white rounded-lg transition-colors duration-200">
-                                    Download on Modrinth
-                                </a>
-                                <a href="https://curseforge.com/minecraft/mc-mods/interiors" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors duration-200">
-                                    Download on CurseForge
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mod Card 2 -->
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:bg-white/15 transition-colors duration-300">
-                    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
-                            <img src="https://media.forgecdn.net/avatars/1068/437/638602929669872740.png" alt="Bells & Whistles Logo" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex-1 text-center md:text-left">
-                            <h3 class="text-2xl font-bold text-fuchsia-50 mb-2">Bells & Whistles</h3>
-                            <p class="text-gray-200 mb-4">Focused on the player experience, adding decorative and utility blocks. Perfect for builders who want to add those extra details that make all the difference.</p>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-4">
-                                <span class="px-3 py-1 bg-purple-600/50 text-white text-sm rounded-full">Fabric</span>
-                                <span class="px-3 py-1 bg-orange-600/50 text-white text-sm rounded-full">Forge</span>
-                                <span class="px-3 py-1 bg-green-600/50 text-white text-sm rounded-full">1.18.2-1.21.1</span>
-                                <span class="px-3 py-1 bg-blue-600/50 text-white text-sm rounded-full">9.06M downloads</span>
-                            </div>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-2">
-                                <a href="https://modrinth.com/mod/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-fuchsia-600 hover:bg-fuchsia-700 text-white rounded-lg transition-colors duration-200">
-                                    Download on Modrinth
-                                </a>
-                                <a href="https://curseforge.com/minecraft/mc-mods/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors duration-200">
-                                    Download on CurseForge
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mod Card 3 -->
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:bg-white/15 transition-colors duration-300">
-                    <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
-                            <img src="https://media.forgecdn.net/avatars/1068/434/638602928990115218.png" alt="Dynamic Village Logo" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex-1 text-center md:text-left">
-                            <h3 class="text-2xl font-bold text-fuchsia-50 mb-2">Dynamic Village</h3>
-                            <p class="text-gray-200 mb-4">Adds a whole host of village professions & structures. Breathe new life into villages with diverse NPCs and buildings that make every village unique and engaging.</p>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-4">
-                                <span class="px-3 py-1 bg-orange-600/50 text-white text-sm rounded-full">Forge</span>
-                                <span class="px-3 py-1 bg-green-600/50 text-white text-sm rounded-full">1.19.2-1.20.1</span>
-                                <span class="px-3 py-1 bg-blue-600/50 text-white text-sm rounded-full">3.73M downloads</span>
-                            </div>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-2">
-                                <a href="https://modrinth.com/mod/dynamic-village" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-fuchsia-600 hover:bg-fuchsia-700 text-white rounded-lg transition-colors duration-200">
-                                    Download on Modrinth
-                                </a>
-                                <a href="https://curseforge.com/minecraft/mc-mods/dynamic-village" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors duration-200">
-                                    Download on CurseForge
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
