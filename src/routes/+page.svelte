@@ -117,8 +117,8 @@
         <div class="w-full pt-[8vh] text-center justify-center flex flex-col items-center">
             <button on:click={scrollToProjects} class="group cursor-pointer text-center">
                 <p class="text-2xl md:text-3xl font-bold font-mastery text-fuchsia-50 mb-4">our work</p>
-                <svg class="w-8 h-8 mx-auto text-fuchsia-50 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                <svg class="w-8 h-8 mx-auto mt-2 text-fuchsia-50 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>
             </button>
         </div>
@@ -129,26 +129,36 @@
         <div class="max-w-4xl mx-auto">            
             <div class="space-y-8">
                                                 <!-- Mod Card 1 -->
-                                <div class="bg-black/10 border border-blue-800 rounded-lg p-6 hover:bg-black/15 transition-colors duration-300">
+                                <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
                                     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                        <div class="w-24 h-24 flex items-center justify-center flex-shrink-0 overflow-hidden notched-corners">
                                             <img src="https://media.forgecdn.net/avatars/1068/437/638602929669872740.png" alt="Bells & Whistles Logo" class="w-full h-full object-cover">
                                         </div>
                                         <div class="flex-1 text-center md:text-left">
                                             <h3 class="text-3xl font-bold font-mastery text-fuchsia-50 mb-2">Bells & Whistles</h3>
                                             <p class="text-gray-200 mb-4">Add greater depth and utility to your builds with new blocks to expand your creative horizons.</p>
                                             <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Fabric</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Forge</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">1.18.2-1.21.1</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">9.06M downloads</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">Fabric</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">Forge</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">1.18.2-1.21.1</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">9.06M downloads</span>
                                             </div>
                                             <div class="flex flex-wrap justify-center md:justify-start gap-2">
-                                                <a href="https://modrinth.com/mod/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
-                                                    Download on Modrinth
+                                                <a href="https://modrinth.com/mod/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="button-download notched-corners">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" class="mr-2">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </g>
+                                                    </svg>
+                                                    modrinth
                                                 </a>
-                                                <a href="https://curseforge.com/minecraft/mc-mods/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
-                                                    Download on CurseForge
+                                                <a href="https://curseforge.com/minecraft/mc-mods/bellsandwhistles" target="_blank" rel="noopener noreferrer" class="button-download notched-corners">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" class="mr-2">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </g>
+                                                    </svg>
+                                                    curseforge
                                                 </a>
                                             </div>
                                         </div>
@@ -156,26 +166,36 @@
                                 </div>
 
                                 <!-- Mod Card 2 -->
-                                <div class="bg-black/10 border border-blue-800 rounded-lg p-6 hover:bg-black/15 transition-colors duration-300">
+                                <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
                                     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                        <div class="w-24 h-24 flex items-center justify-center flex-shrink-0 overflow-hidden notched-corners">
                                             <img src="https://media.forgecdn.net/avatars/1068/436/638602929407669140.png" alt="Create Interiors Logo" class="w-full h-full object-cover">
                                         </div>
                                         <div class="flex-1 text-center md:text-left">
                                             <h3 class="text-3xl font-bold font-mastery text-fuchsia-50 mb-2">Create Interiors</h3>
                                             <p class="text-gray-200 mb-4">New blocks & mechanics to improve your Create mod experience.</p>
                                             <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Fabric</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Forge</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">1.18.2-1.21.1</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">8.93M downloads</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">Fabric</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">Forge</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">1.18.2-1.21.1</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">8.93M downloads</span>
                                             </div>
                                             <div class="flex flex-wrap justify-center md:justify-start gap-2">
-                                                <a href="https://modrinth.com/mod/interiors" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
-                                                    Download on Modrinth
+                                                <a href="https://modrinth.com/mod/interiors" target="_blank" rel="noopener noreferrer" class="button-download notched-corners">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" class="mr-2">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </g>
+                                                    </svg>
+                                                    modrinth
                                                 </a>
-                                                <a href="https://curseforge.com/minecraft/mc-mods/interiors" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
-                                                    Download on CurseForge
+                                                <a href="https://curseforge.com/minecraft/mc-mods/interiors" target="_blank" rel="noopener noreferrer" class="button-download notched-corners">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" class="mr-2">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </g>
+                                                    </svg>
+                                                    curseforge
                                                 </a>
                                             </div>
                                         </div>
@@ -184,25 +204,35 @@
             
                 
                                 <!-- Mod Card 3 -->
-                                <div class="bg-black/10 border border-blue-800 rounded-lg p-6 hover:bg-black/15 transition-colors duration-300">
+                                <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
                                     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                                        <div class="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                                        <div class="w-24 h-24 flex items-center justify-center flex-shrink-0 overflow-hidden notched-corners">
                                             <img src="https://media.forgecdn.net/avatars/1068/434/638602928990115218.png" alt="Dynamic Village Logo" class="w-full h-full object-cover">
                                         </div>
                                         <div class="flex-1 text-center md:text-left">
                                             <h3 class="text-3xl font-bold font-mastery text-fuchsia-50 mb-2">Dynamic Village</h3>
                                             <p class="text-gray-200 mb-4">Breathe new life into villages with a whole host of modern professions and buildings.</p>
                                             <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">Forge</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">1.19.2-1.20.1</span>
-                                                <span class="px-3 py-1 border border-blue-700 bg-blue-900/20 text-blue-200 text-sm font-bold">3.73M downloads</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">Forge</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">1.19.2-1.20.1</span>
+                                                <span class="px-3 py-1 notched-corners mod-tag">3.73M downloads</span>
                                             </div>
                                             <div class="flex flex-wrap justify-center md:justify-start gap-2">
-                                                <a href="https://modrinth.com/mod/dynamic-village" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
-                                                    Download on Modrinth
+                                                <a href="https://modrinth.com/mod/dynamic-village" target="_blank" rel="noopener noreferrer" class="button-download notched-corners">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" class="mr-2">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </g>
+                                                    </svg>
+                                                    modrinth
                                                 </a>
-                                                <a href="https://curseforge.com/minecraft/mc-mods/dynamic-village" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-blue-600 bg-blue-800/30 hover:bg-blue-700/50 text-blue-100 rounded-lg transition-colors duration-200">
-                                                    Download on CurseForge
+                                                <a href="https://curseforge.com/minecraft/mc-mods/dynamic-village" target="_blank" rel="noopener noreferrer" class="button-download notched-corners">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" class="mr-2">
+                                                        <g id="Interface / Download">
+                                                            <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </g>
+                                                    </svg>
+                                                    curseforge
                                                 </a>
                                             </div>
                                         </div>
@@ -224,5 +254,27 @@
     /* Custom Cursor */
     :global(body) {
         cursor: none;
+    }
+    :global(.mod-tag) {
+        @apply bg-black/20 text-blue-100 text-sm/6 lowercase font-bold 
+    }
+    :global(.button-download) {
+        @apply notched-corners inline-flex items-center px-4 py-2 bg-slate-600 text-white  hover:bg-slate-500 transition-colors duration-200;
+    }
+    :global(.notched-corners) {
+        clip-path: polygon(
+            0% 5px,
+            5px 5px,
+            5px 0%,
+            calc(100% - 5px) 0%,
+            calc(100% - 5px) 5px,
+            100% 5px,
+            100% calc(100% - 5px),
+            calc(100% - 5px) calc(100% - 5px),
+            calc(100% - 5px) 100%,
+            5px 100%,
+            5px calc(100% - 5px),
+            0% calc(100% - 5px)
+        );
     }
 </style>
