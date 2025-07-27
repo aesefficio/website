@@ -134,8 +134,7 @@
                 </svg>
             </a>
         </span>
-        
-        <!-- Our Projects Section -->
+    <!--    
         <div class="w-full pt-[8vh] text-center justify-center flex flex-col items-center">
             <button on:click={scrollToProjects} class="group cursor-pointer text-center">
                 <p class="text-2xl md:text-3xl font-bold font-mastery text-fuchsia-50 mb-4">our work</p>
@@ -146,11 +145,9 @@
         </div>
     </div>
     
-    <!-- Projects Section -->
     <section id="projects" class="min-h-screen w-full bg-gradient-to-b from-transparent to-black/20 py-16 px-4">
         <div class="max-w-4xl mx-auto">            
             <div class="space-y-8">
-                                                <!-- Mod Card 1 -->
                                 <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
                                     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
                                         <div class="w-24 h-24 flex items-center justify-center flex-shrink-0 overflow-hidden notched-corners">
@@ -187,7 +184,6 @@
                                     </div>
                                 </div>
 
-                                <!-- Mod Card 2 -->
                                 <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
                                     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
                                         <div class="w-24 h-24 flex items-center justify-center flex-shrink-0 overflow-hidden notched-corners">
@@ -225,7 +221,6 @@
                                 </div>
             
                 
-                                <!-- Mod Card 3 -->
                                 <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
                                     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
                                         <div class="w-24 h-24 flex items-center justify-center flex-shrink-0 overflow-hidden notched-corners">
@@ -263,7 +258,7 @@
                             </div>
         </div>
     </section>
-
+-->
     <div class="fixed inset-x-0 bottom-3 flex justify-center font-bold font-varela text-white text-sm hover:underline decoration-dotted ">
         <a href="./privacy">privacy policy</a>
     </div>
