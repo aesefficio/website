@@ -86,18 +86,18 @@
 
 <svelte:head>
     <title>Aes Efficio</title> 
-    <meta name="description" content="Aes Efficio Software">
-    <meta name="keywords" content="AesEfficio, Efficio, Software">
+    <meta name="description" content="Aes Efficio Group">
+    <meta name="keywords" content="Aes Efficio, Aes Efficio Group, Alexander AKira Weimer">
     <meta name="author" content="Alexander Akira Weimer">
-    <meta name="copyright" content="Alexander Akira Weimer">
+    <meta name="copyright" content="Aes Efficio Group">
     <meta property="og:site_name" content="Aes Efficio">
-    <meta property="og:image" content="/img/wordmark.png"> 
+    <meta property="og:image" content="/aesefficio.png"> 
     <meta property="fb:admins" content="268094773018996">
 </svelte:head>
 
 <main class={`justify-between items-center l-0 drop-shadow-xl transition-all duration-1000 ease-in-out${showModsBackground ? ' bg-gradient-to-br from-purple-900/40 via-fuchsia-900/30 to-pink-900/40' : ''}`}>
     <div class="flex flex-col h-[100vh] pt-2 md:pt-4 w-full px-2">
-        <h1 class="transform scale-0">Aes Efficio Website</h1> <!-- SEO -->
+        <h1 class="transform scale-0">Aes Efficio Website</h1> 
         <span class="pr-1 pt-[30vh] mx-auto w-full text-center justify-center flex items-center md:text-center font-bold font-mastery text-fuchsia-50">
             <svg class="mt-4 h-8 md:h-12" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 278 160" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0">
                 <path class="white" fill="white" stroke="white" d="M211.643 54.7138l-14.3145 -13.4661c-16.957,-16.3591 -29.6255,-27.1822 -38.054,-32.5686 -8.429,-5.3364 -17.0076,-8.0297 -25.6858,-8.0297 -12.3688,0 -23.2913,4.1895 -32.7677,12.5184 -9.5259,8.3295 -14.2638,17.8053 -14.2638,28.5287 0,7.83 2.2938,14.364 6.9322,19.7504 4.6383,5.3364 10.2746,8.0297 16.9075,8.0297 8.4791,0 16.6083,-4.5388 24.3887,-13.6158 -2.2443,0.3988 -3.9897,0.5985 -5.2368,0.5985 -7.9796,0 -14.9123,-2.4441 -20.7477,-7.3817 -5.8353,-4.8875 -8.7777,-10.7729 -8.7777,-17.6056 0,-4.289 1.5457,-7.9301 4.6878,-11.0221 3.0926,-3.0425 6.7331,-4.5889 10.9226,-4.5889 11.1222,0 30.1245,13.8656 57.0068,41.6456l11.8203 12.1196c-9.1271,6.2341 -21.745,11.6707 -37.7548,16.3591 -16.0599,4.6383 -30.1245,6.9823 -42.2942,6.9823 -21.0469,0 -38.6525,-6.4339 -52.7672,-19.3016 -14.1148,-12.8176 -21.1966,-28.8274 -21.1966,-48.0293 0,-4.3892 0.5485,-8.5286 1.5958,-12.4188 -20.6481,3.6905 -30.9722,12.7681 -30.9722,27.1815 0,18.4038 9.5259,34.3641 28.5782,47.8303 19.0524,13.5156 41.496,20.2487 67.4305,20.2487 14.6136,0 34.5631,-4.9871 59.8001,-14.9124l-10.5237 10.2246c-10.7229,10.4236 -21.9447,19.1519 -33.6154,26.1842 -11.7207,7.0323 -20.8979,10.5232 -27.631,10.5232 -5.486,0 -10.0743,-1.5958 -13.8149,-4.7379 -3.7406,-3.1922 -5.6362,-7.0324 -5.6362,-11.6207 0,-1.0974 0.1496,-2.5436 0.4489,-4.3891 -13.4662,5.0371 -20.1993,11.5711 -20.1993,19.5507 0,5.5861 2.7934,10.324 8.429,14.2143 5.5862,3.8902 12.4188,5.8353 20.4985,5.8353 18.6035,0 45.9346,-17.6556 81.9941,-52.9169l10.2245 -10.0749c7.5307,-7.381 15.7105,-14.2143 24.5878,-20.4484 16.5588,16.9576 33.1671,25.4361 49.925,25.4361 10.0248,0 18.4533,-2.6932 25.1864,-8.1298 6.7831,-5.3864 10.1744,-12.0695 10.1744,-19.9495 0,-7.7804 -3.2417,-14.3144 -9.7256,-19.5012 -6.4833,-5.2368 -14.563,-7.8305 -24.2886,-7.8305 -9.8257,0 -20.2493,2.943 -31.2714,8.7783zm7.4311 6.8828c8.6782,-3.2423 15.8602,-4.8381 21.4958,-4.8381 6.9328,0 12.1196,1.0474 15.5609,3.1421 3.4414,2.0948 5.1874,5.2369 5.1874,9.4263 0,2.9424 -1.0474,5.1373 -3.0926,6.5835 -2.0447,1.4462 -5.1367,2.1943 -9.3262,2.1943 -8.9775,0 -18.9027,-5.486 -29.8253,-16.5081z"/>
@@ -108,7 +108,7 @@
 </svg>
             </span>
         <span class="w-full pt-[10vh] text-center justify-center flex items-center md:text-center font-bold font-mastery text-fuchsia-50 pb-4 md:pb-8">
-<a class="ml-8 relative group" href="https://www.linkedin.com/company/99153631" target="_blank" rel="noopener noreferrer">
+<a class="mr-8 relative group" href="https://www.linkedin.com/company/aesefficio" target="_blank" rel="noopener noreferrer">
     <svg width="32px" height="32px" class="linkicon inline cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
         <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340.7C24.09 107.3 0 83.2 0 53.5A53.5 53.5 0 0 1 53.84 0c29.7 0 53.5 24.1 53.5 53.8 0 29.4-23.8 53.5-53.5 53.5zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
     </svg>
@@ -142,6 +142,9 @@
                 </svg>
             </a>
         </span>
+<h2 class="mt-6 text-center text-sm md:text-base font-varela font-bold text-[#fbf5fc] max-w-xl mx-auto">
+Aes Efficio Group is a development team that creates interactive software experiences with over 50 million downloads to date.
+</h2>
     <!--    
         <div class="w-full pt-[8vh] text-center justify-center flex flex-col items-center">
             <button on:click={scrollToProjects} class="group cursor-pointer text-center">
@@ -227,9 +230,7 @@
                                         </div>
                                     </div>
                                 </div>
-<p class="mt-6 text-center text-sm md:text-base font-varela text-fuchsia-100/80 max-w-xl mx-auto">
-Aes Efficio is a development team that creates interactive software experiences with over 50 million downloads to date. It is led by founder & lead developer Alexander Weimer.
-</p>
+
             
                 
                                 <div class="bg-gray-800 notched-corners p-6 hover:bg-gray-700 transition-colors duration-300">
